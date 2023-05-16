@@ -1,0 +1,212 @@
+:root {
+    --link-color-hover: #404bbf;
+    --nav-item-color: #2e2f42;
+    --address-list-color: #434455;
+    --logo-color: #4d5ae5;
+    --pf-btn-color: #f4f4fd;
+    --background-color-one: #ffffff;
+    --pf-btn-brd-color: #e7e9fc;
+    --customer-icons-color: #8e8f99;
+    --footer-icons-color: #31d0aa;
+    --text-icon-color: #afb1b8;
+    --modal-back-color: #fcfcfc;
+
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--address-list-color);
+    background-color: var(--background-color-one);
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/**============Header===============**/
+.header {
+    background-color: var(--background-color-one);
+}
+
+.header-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+   
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.header-logo {
+
+        color: var(--nav-item-color);
+}
+  
+/* Menu Nav */
+
+.header-link:hover,
+.header-link:focus {
+color: #404bbf;
+}
+    
+
+.header-list-item {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--address-list-color);
+}
+
+.address {
+    
+font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;  
+}
+
+.address-link {
+    color: var(--address-list-color);
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+/**=========HERO==========**/
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+            
+.hero-button {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        background-color: #4D5AE5;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+/**=========Section 1==========**/
+.title-h-two {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color:var(--nav-item-color);
+}
+.title-h-three {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;   
+        color:var(--nav-item-color)
+}
+
+.desc-item {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--address-list-color);
+}
+/**==========Section 2==========**/
+
+
+
+/**===========Section 3=========**/
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-personal {
+    background-color: #FFFFFF;
+}
+/* FOOTER */
+.footer {
+    background-color: var(--nav-item-color);
+}
+.footer-logo {
+    color: #f4f4fd;
+}
+
+/* PORTFOLIO */
+.btn-portfolio {
+    padding: 12px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color:var(--logo-color);
+    background-color: var(--pf-btn-color);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    color: var(--background-color-one);
+    background-color: var(--link-color-hover);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.footer .desc-item {
+    color: var(--pf-btn-color);
+}
