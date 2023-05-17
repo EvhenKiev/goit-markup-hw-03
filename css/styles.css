@@ -21,6 +21,14 @@ body {
     background-color: var(--background-color-one);
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
 
 .list {
     list-style: none;
@@ -30,13 +38,14 @@ body {
     text-decoration: none;
 }
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 /**============Header===============**/
 .header {
+    padding-top: 24px;
     background-color: var(--background-color-one);
 }
 
@@ -116,7 +125,10 @@ font-family: 'Roboto', sans-serif;
         text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-}
+        margin-bottom: 48px;
+        padding-top: 188px;
+        padding-bottom: 292px;
+    }
             
 .hero-button {
         font-family: inherit;
@@ -130,6 +142,7 @@ font-family: 'Roboto', sans-serif;
         background-color: #4D5AE5;
         color: #FFFFFF;
         cursor: pointer;
+        margin-top: 64px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -145,6 +158,7 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--nav-item-color);
+        margin-bottom: 72px;
 }
 .title-h-three {
     font-family: 'Roboto', sans-serif;
@@ -152,7 +166,8 @@ font-family: 'Roboto', sans-serif;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;   
-        color:var(--nav-item-color)
+        color:var(--nav-item-color);
+        margin-bottom: 8px;
 }
 
 .desc-item {
@@ -164,7 +179,13 @@ font-family: 'Roboto', sans-serif;
         color:var(--address-list-color);
 }
 /**==========Section 2==========**/
+.work-list{
 
+}
+
+.work-item{
+
+}
 
 
 /**===========Section 3=========**/
