@@ -279,11 +279,12 @@ font-family: 'Roboto', sans-serif;
 .footer {
     background-color: var(--nav-item-color);
     padding: 100px 0;
+    display: inline-block;
+       
 }
 .footer-logo {
     color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
+   
 }
 
 .desc-item
