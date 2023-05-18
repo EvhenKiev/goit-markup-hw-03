@@ -96,6 +96,7 @@ color: #404bbf;
     
 .header-list {
     display: flex;
+    gap: 40px;
 }
 
 .header-list-item {
@@ -104,6 +105,10 @@ color: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--address-list-color);
+}
+
+.address-list {
+    display: flex;
 }
 
 .address {
