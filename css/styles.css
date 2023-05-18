@@ -32,6 +32,7 @@ ul, ol {
 
 .list {
     list-style: none;
+    display: flex;
 }
 
 .link {
@@ -41,18 +42,26 @@ ul, ol {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    display: flex;
 }
 
 /**============Header===============**/
 .header {
     padding-top: 24px;
     background-color: var(--background-color-one);
+    border-bottom: 1px
+    solid #e7e9fc;
+    display: flex;
 }
 
 .header-cont {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.header-nav {
+display: flex;
+align-items: center;
 }
 .head-logo {
     font-family: "Raleway", sans-serif;
@@ -64,6 +73,7 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
+    margin-right: 76px;
 }
 
 .header-link {
