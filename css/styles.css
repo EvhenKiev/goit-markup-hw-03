@@ -32,7 +32,6 @@ ul, ol {
 
 .list {
     list-style: none;
-    display: flex;
 }
 
 .link {
@@ -95,6 +94,9 @@ align-items: center;
 color: #404bbf;
 }
     
+.header-list {
+    display: flex;
+}
 
 .header-list-item {
     font-weight: 400;
