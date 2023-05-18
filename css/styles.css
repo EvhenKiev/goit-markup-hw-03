@@ -262,10 +262,9 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 8px
 }
 
-.desc-item {
-    text-align: center;
 
-}
+
+
 
 .team-personal {
     background-color: #FFFFFF;
@@ -274,6 +273,7 @@ font-family: 'Roboto', sans-serif;
 /* FOOTER */
 .footer-container {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer {
@@ -286,6 +286,7 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 16px;
 }
 
+.desc-item
 /* PORTFOLIO */
 .btn-portfolio {
     padding: 12px 24px;
