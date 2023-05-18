@@ -46,7 +46,7 @@ ul, ol {
 
 /**============Header===============**/
 .header {
-    padding-top: 24px;
+    padding: 24px 0;
     background-color: var(--background-color-one);
     border-bottom: 1px
     solid #e7e9fc;
@@ -97,7 +97,6 @@ color: #404bbf;
 .header-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-list-item {
