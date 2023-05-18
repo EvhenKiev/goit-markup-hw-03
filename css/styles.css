@@ -201,8 +201,7 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;   
         color:var(--nav-item-color);
         margin-bottom: 8px;
-        width: calc((100% - 72px) / 4);
-        padding: 120px 0;
+        
 
 }
 
@@ -215,7 +214,13 @@ font-family: 'Roboto', sans-serif;
         color:var(--address-list-color);
 }
 /**==========Section 2==========**/
+
+.works {
+    padding-bottom: 120px;
+}
 .work-list{
+    display: flex;
+    gap: 24px;
 
 }
 
@@ -228,6 +233,7 @@ font-family: 'Roboto', sans-serif;
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-personal {
