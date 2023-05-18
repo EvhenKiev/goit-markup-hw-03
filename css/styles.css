@@ -188,11 +188,10 @@ font-family: 'Roboto', sans-serif;
     padding: 120px 0;
     display: flex;
     gap: 24px;
+ 
 }
 
-.desc-item {
-    width: calc((100% - 72px) / 4);
-}
+
 
 .title-h-three {
     font-family: 'Roboto', sans-serif;
@@ -202,6 +201,9 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;   
         color:var(--nav-item-color);
         margin-bottom: 8px;
+        width: calc((100% - 72px) / 4);
+        padding: 120px 0;
+
 }
 
 .desc-item {
