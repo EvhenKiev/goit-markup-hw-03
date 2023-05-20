@@ -293,6 +293,22 @@ font-family: 'Roboto', sans-serif;
 
 .desc-item
 /* PORTFOLIO */
+
+.portfolio {
+    padding: 96px 0 120px;
+}
+
+.portfolio-list {
+display: flex;
+justify-content: center;
+gap: 24px;
+margin-bottom: 72px;
+}
+
+.portfolio-item{
+
+}
+
 .btn-portfolio {
     padding: 12px 24px;
     font-family: 'Roboto', sans-serif;
@@ -306,7 +322,10 @@ font-family: 'Roboto', sans-serif;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
-
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .btn-portfolio:hover,
