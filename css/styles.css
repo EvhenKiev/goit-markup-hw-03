@@ -291,11 +291,18 @@ font-family: 'Roboto', sans-serif;
    
 }
 
-.desc-item
+.desc-item{
+
+}
+
 /* PORTFOLIO */
 
+.main-portfolio {
+padding: 96px 0 120px;
+}
+
 .portfolio {
-    padding: 96px 0 120px;
+    
 }
 
 .portfolio-list {
@@ -308,8 +315,12 @@ margin-bottom: 72px;
 .portfolio-item{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 24px;   
     margin-bottom: 72px;
+}
+
+.portfolio-item-content {
+
 }
 
 .btn-portfolio {
