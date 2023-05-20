@@ -267,14 +267,12 @@ width: calc((100% - 72px) / 4);
     margin-bottom: 8px
 }
 
-
-
-
-
 .team-personal {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
+
+.title-h-three
 /* FOOTER */
 .footer-container {
     display: inline-block;
@@ -287,9 +285,14 @@ width: calc((100% - 72px) / 4);
     display: inline-block;
        
 }
+
+.head-logo {
+    display: inline-block;
+}
+
 .footer-logo {
     color: #f4f4fd;
-   
+    margin-bottom: 16px;
 }
 
 .desc-item{
@@ -320,15 +323,15 @@ padding: 96px 0 120px;
 
 .portfolio-item-content {
     padding: 32px 16px;
-        border: 1px solid var(--pf-btn-brd-color);
-        border-top: none;
+    border: 1px solid var(--pf-btn-brd-color);
+    border-top: none;
 }
 
 .btn-list {
     display: flex;
-        justify-content: center;
-        gap: 24px;
-        margin-bottom: 72px;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .btn-portfolio {
