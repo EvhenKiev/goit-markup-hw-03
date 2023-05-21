@@ -207,16 +207,20 @@ font-family: 'Roboto', sans-serif;
  
 }
 
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
 
 
 .title-h-three {
     font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;   
-        color:var(--nav-item-color);
-        margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;   
+    color:var(--nav-item-color);
+    margin-bottom: 8px;
         
 
 }
@@ -274,10 +278,7 @@ width: calc((100% - 72px) / 4);
 
 .title-h-three
 /* FOOTER */
-.footer-container {
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 
 .footer {
     background-color: var(--nav-item-color);
@@ -288,12 +289,10 @@ width: calc((100% - 72px) / 4);
 
 .head-logo {
     display: inline-block;
-}
-
-.footer-logo {
-    color: #f4f4fd;
     margin-bottom: 16px;
 }
+
+
 
 .desc-item{
 
