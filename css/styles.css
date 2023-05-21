@@ -305,7 +305,7 @@ padding: 96px 0 120px;
     row-gap: 48px;
 }
 
-.portfolio-item{
+.portfolio-item {
     width: calc((100% - 48px) / 3);
 }
 
