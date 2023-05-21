@@ -314,7 +314,7 @@ padding: 96px 0 120px;
     }
 
 .btn-list {
-    
+    display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
